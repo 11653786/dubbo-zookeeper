@@ -14,11 +14,12 @@
 
     <!-- 使用zookeeper注册中心暴露服务地址 -->
     <!-- <dubbo:registry address="multicast://224.5.6.7:1234" /> -->
-    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <!--group表示分组,请求url又添加了东西-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181" group="dubbo-test-yangtao" />
 
     <!-- 生成远程服务代理，可以像使用本地bean一样使用demoService -->
     <dubbo:reference id="userService"
-                     interface="com.yt.inter.UserService"/>
+                     interface="com.yt.inter.UserService"  check="false" />
 
 
 </beans>
