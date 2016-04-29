@@ -18,6 +18,8 @@ public class Provider {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        //com.alibaba.dubbo.container.Main.main(new String[] { "spring" });
 //        UserService userService=context.getBean(UserService.class);
 //        userService.hello("heheheh");
 //        System.out.println("--------------------------------dubbo----------------------------------------------------");
