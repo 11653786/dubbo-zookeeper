@@ -1,2 +1,2 @@
-#dubbo-adminÅäÖÃurlÎª:dubbo://ip:20880/½Ó¿ÚÂ·¾¶?application=Ó¦ÓÃÃû³Æ
+#dubbo-adminé…ç½®urlä¸º:dubbo://ip:20880/æ¥å£è·¯å¾„?application=åº”ç”¨åç§°
 #dubbo://192.168.71.18:20880/com.yt.inter.UserService?application=xs_provider
