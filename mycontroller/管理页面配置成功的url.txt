@@ -1,0 +1,2 @@
+#dubbo-admin配置url为:dubbo://ip:20880/接口路径?application=应用名称
+#dubbo://192.168.71.18:20880/com.yt.inter.UserService?application=xs_provider
